@@ -35,7 +35,6 @@ namespace UnitTestingExercise
         }
 
         // Create 2 methods that will utilize the [Fact] tests you wrote
-        public char ReturnH()
-        
+        public char ReturnH { get; set; }
     }
 }

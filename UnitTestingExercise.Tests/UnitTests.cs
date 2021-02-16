@@ -79,7 +79,7 @@ namespace UnitTestingExercise.Tests
             var expected = 'h';
             var tester = new UnitTestMethods();
             //Act
-            var actual = tester.ReturnH(); 
+            var actual = tester.ReturnH; 
 
             //Assert
             Assert.Equal(expected, actual);
@@ -93,7 +93,7 @@ namespace UnitTestingExercise.Tests
             var tester = new UnitTestMethods();
 
             //Act
-            var actual = tester.ReturnH();
+            var actual = tester.ReturnH;
             //Assert
             Assert.Equal(expected, actual);
         }
