@@ -77,22 +77,23 @@ namespace UnitTestingExercise.Tests
         {
             //Arrange
             var expected = 'h';
-
+            var tester = new UnitTestMethods();
             //Act
-            
+            var actual = tester.ReturnH(); 
 
             //Assert
             Assert.Equal(expected, actual);
         }
 
         [Fact]
-        public void Money2()
+        public void Bank()
         {
             //Arrange
-            var expected = 'm';
+            var expected = 'b';
+            var tester = new UnitTestMethods();
 
             //Act
-
+            var actual = tester.ReturnH();
             //Assert
             Assert.Equal(expected, actual);
         }
